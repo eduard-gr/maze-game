@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++17 -Wno-narrowing -g   CMakeFiles/game.dir/src/game.cpp.o  -o game   -L/home/sk/tmp/maze/libs/unix/pdcurses  -Wl,-rpath,/home/sk/tmp/maze/libs/unix/pdcurses libmaze.a libmenu.a -lm -lncurses 

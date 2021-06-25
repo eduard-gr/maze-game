@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sk/tmp/maze/src/game.cpp
+iostream
+-
+stdio.h
+-
+maze.hpp
+/home/sk/tmp/maze/src/maze.hpp
+menu.hpp
+/home/sk/tmp/maze/src/menu.hpp
+logo.hpp
+/home/sk/tmp/maze/src/logo.hpp
+
+/home/sk/tmp/maze/src/logo.hpp
+
+/home/sk/tmp/maze/src/maze.hpp
+curses.h
+-
+vector
+-
+
+/home/sk/tmp/maze/src/menu.hpp
+vector
+-
+string
+-
+
+libs/include/pdcurses/curses.h
+stdarg.h
+-
+stddef.h
+-
+stdio.h
+-
+wchar.h
+-
+

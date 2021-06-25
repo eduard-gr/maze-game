@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sk/tmp/maze/src/menu.cpp
+menu.hpp
+/home/sk/tmp/maze/src/menu.hpp
+curses.h
+-
+string.h
+-
+algorithm
+-
+
+/home/sk/tmp/maze/src/menu.hpp
+vector
+-
+string
+-
+
+libs/include/pdcurses/curses.h
+stdarg.h
+-
+stddef.h
+-
+stdio.h
+-
+wchar.h
+-
+

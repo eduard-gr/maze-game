@@ -1,0 +1,6 @@
+/home/sk/tmp/maze/CMakeFiles/rebuild_cache.dir
+/home/sk/tmp/maze/CMakeFiles/edit_cache.dir
+/home/sk/tmp/maze/CMakeFiles/game.dir
+/home/sk/tmp/maze/CMakeFiles/editor.dir
+/home/sk/tmp/maze/CMakeFiles/maze.dir
+/home/sk/tmp/maze/CMakeFiles/menu.dir

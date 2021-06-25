@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmaze.a  CMakeFiles/maze.dir/src/maze.cpp.o
+/usr/bin/ranlib libmaze.a
