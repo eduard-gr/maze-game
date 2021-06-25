@@ -1,1 +1,0 @@
-/usr/bin/c++  -std=c++17 -Wno-narrowing -g   CMakeFiles/editor.dir/src/editor.cpp.o  -o editor   -L/home/sk/tmp/maze/libs/unix/pdcurses  -Wl,-rpath,/home/sk/tmp/maze/libs/unix/pdcurses libmaze.a libmenu.a -lm -lncurses 

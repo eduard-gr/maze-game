@@ -105,9 +105,7 @@ void play(std::vector<Maze> *mazes){
 			}else if(toupper(ch) == 'E') {
 				
 				if(confirmation_message("Exit game", "Are you sure you want to exit")){
-					delwin(window);
-					delwin(help);
-					return;
+					goto EXIT_GAME;
 				}
 
 				clear();
@@ -122,9 +120,7 @@ void play(std::vector<Maze> *mazes){
 				if(confirmation_message("Victory", "Go to the next level")){
 					break;
 				}else{
-					delwin(window);
-					delwin(help);
-					return;
+					goto EXIT_GAME;
 				}
 			}
 
@@ -132,6 +128,11 @@ void play(std::vector<Maze> *mazes){
 		}
 
 	}
+	
+	EXIT_GAME:
+
+	delwin(window);
+	delwin(help);
 }
 
 int main(int argc, char *argv[])
